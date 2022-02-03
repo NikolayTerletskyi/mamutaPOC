@@ -1,0 +1,71 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32112.339
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{FEAAE124-6AAA-4337-9C1F-24663B07930D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{8EE3618D-CC74-4D6E-8C95-51E30497D3B0}"
+	ProjectSection(SolutionItems) = preProject
+		.dockerignore = .dockerignore
+		.gitignore = .gitignore
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mammuta.Gateway.Infrastructure", "src\Mammuta.Gateway.Infrastructure\Mammuta.Gateway.Infrastructure.csproj", "{195A49C6-9FBC-4D2B-99E6-A563674DFA0F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mammuta.Gateway.Domain", "src\Mammuta.Gateway.Domain\Mammuta.Gateway.Domain.csproj", "{E073B7E2-C869-431F-A91A-CD1100A96A00}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mammuta.Chatting.Contracts", "src\Mammuta.Chatting.Contracts\Mammuta.Chatting.Contracts.csproj", "{274F4E4E-2B56-4DBD-903E-8626DF81E8E3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mammuta.Gateway.Application", "src\Mammuta.Gateway.Application\Mammuta.Gateway.Application.csproj", "{E3ABC1CE-8612-4757-94F4-E2012C7A0696}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mammuta.Gateway.API", "src\Mammuta.Gateway.API\Mammuta.Gateway.API.csproj", "{E4E1CA10-79E9-4C38-90E0-A4E58C8DA4F0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mammuta.Infrastructure", "src\Mammuta.Infrastructure\Mammuta.Infrastructure.csproj", "{A271624F-3516-4594-8386-8D247F1CEE2A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{195A49C6-9FBC-4D2B-99E6-A563674DFA0F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{195A49C6-9FBC-4D2B-99E6-A563674DFA0F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{195A49C6-9FBC-4D2B-99E6-A563674DFA0F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{195A49C6-9FBC-4D2B-99E6-A563674DFA0F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E073B7E2-C869-431F-A91A-CD1100A96A00}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E073B7E2-C869-431F-A91A-CD1100A96A00}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E073B7E2-C869-431F-A91A-CD1100A96A00}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E073B7E2-C869-431F-A91A-CD1100A96A00}.Release|Any CPU.Build.0 = Release|Any CPU
+		{274F4E4E-2B56-4DBD-903E-8626DF81E8E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{274F4E4E-2B56-4DBD-903E-8626DF81E8E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{274F4E4E-2B56-4DBD-903E-8626DF81E8E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{274F4E4E-2B56-4DBD-903E-8626DF81E8E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E3ABC1CE-8612-4757-94F4-E2012C7A0696}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E3ABC1CE-8612-4757-94F4-E2012C7A0696}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E3ABC1CE-8612-4757-94F4-E2012C7A0696}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E3ABC1CE-8612-4757-94F4-E2012C7A0696}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E4E1CA10-79E9-4C38-90E0-A4E58C8DA4F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E4E1CA10-79E9-4C38-90E0-A4E58C8DA4F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E4E1CA10-79E9-4C38-90E0-A4E58C8DA4F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E4E1CA10-79E9-4C38-90E0-A4E58C8DA4F0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A271624F-3516-4594-8386-8D247F1CEE2A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A271624F-3516-4594-8386-8D247F1CEE2A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A271624F-3516-4594-8386-8D247F1CEE2A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A271624F-3516-4594-8386-8D247F1CEE2A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{195A49C6-9FBC-4D2B-99E6-A563674DFA0F} = {FEAAE124-6AAA-4337-9C1F-24663B07930D}
+		{E073B7E2-C869-431F-A91A-CD1100A96A00} = {FEAAE124-6AAA-4337-9C1F-24663B07930D}
+		{274F4E4E-2B56-4DBD-903E-8626DF81E8E3} = {FEAAE124-6AAA-4337-9C1F-24663B07930D}
+		{E3ABC1CE-8612-4757-94F4-E2012C7A0696} = {FEAAE124-6AAA-4337-9C1F-24663B07930D}
+		{E4E1CA10-79E9-4C38-90E0-A4E58C8DA4F0} = {FEAAE124-6AAA-4337-9C1F-24663B07930D}
+		{A271624F-3516-4594-8386-8D247F1CEE2A} = {FEAAE124-6AAA-4337-9C1F-24663B07930D}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A8607DA6-ACAD-4139-8FB5-3A58DC793935}
+	EndGlobalSection
+EndGlobal

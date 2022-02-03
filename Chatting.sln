@@ -1,0 +1,50 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32112.339
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{DDA97B30-56DE-41D5-A10C-964BBA234257}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{B24952CB-172C-48BD-8F7D-C7804BAA7153}"
+	ProjectSection(SolutionItems) = preProject
+		.dockerignore = .dockerignore
+		.gitignore = .gitignore
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mammuta.Chatting.Contracts", "src\Mammuta.Chatting.Contracts\Mammuta.Chatting.Contracts.csproj", "{1F868947-E1A6-4630-B430-64F338FEB011}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mammuta.Chatting.Host", "src\Mammuta.Chatting.Host\Mammuta.Chatting.Host.csproj", "{4153C524-543C-450F-9491-4F508A41F973}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mammuta.Chatting.Domain", "src\Mammuta.Chatting.Domain\Mammuta.Chatting.Domain.csproj", "{69DF8A7C-9AA7-4DB1-8E99-573BD58AE115}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1F868947-E1A6-4630-B430-64F338FEB011}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F868947-E1A6-4630-B430-64F338FEB011}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F868947-E1A6-4630-B430-64F338FEB011}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F868947-E1A6-4630-B430-64F338FEB011}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4153C524-543C-450F-9491-4F508A41F973}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4153C524-543C-450F-9491-4F508A41F973}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4153C524-543C-450F-9491-4F508A41F973}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4153C524-543C-450F-9491-4F508A41F973}.Release|Any CPU.Build.0 = Release|Any CPU
+		{69DF8A7C-9AA7-4DB1-8E99-573BD58AE115}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{69DF8A7C-9AA7-4DB1-8E99-573BD58AE115}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{69DF8A7C-9AA7-4DB1-8E99-573BD58AE115}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{69DF8A7C-9AA7-4DB1-8E99-573BD58AE115}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1F868947-E1A6-4630-B430-64F338FEB011} = {DDA97B30-56DE-41D5-A10C-964BBA234257}
+		{4153C524-543C-450F-9491-4F508A41F973} = {DDA97B30-56DE-41D5-A10C-964BBA234257}
+		{69DF8A7C-9AA7-4DB1-8E99-573BD58AE115} = {DDA97B30-56DE-41D5-A10C-964BBA234257}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0068450F-D6FB-4668-B41C-8B66978F16B5}
+	EndGlobalSection
+EndGlobal
