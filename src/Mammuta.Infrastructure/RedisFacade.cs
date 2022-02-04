@@ -11,4 +11,9 @@ public class RedisFacade
     {
         return Task.CompletedTask;
     }
+
+    public Task BroadcastMessage<TDTO>(string channelName, TDTO dto)
+    {
+        return Task.CompletedTask;
+    }
 }

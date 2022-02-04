@@ -14,4 +14,10 @@
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Mammuta.Chatting.Application\Mammuta.Chatting.Application.csproj" />
+    <ProjectReference Include="..\Mammuta.Chatting.Contracts\Mammuta.Chatting.Contracts.csproj" />
+    <ProjectReference Include="..\Mammuta.Chatting.Domain\Mammuta.Chatting.Domain.csproj" />
+  </ItemGroup>
+
 </Project>

@@ -1,5 +1,5 @@
 ﻿namespace Mammuta.Infrastructure;
 
-public class RepositoryBase
+public abstract class RepositoryBase
 {
 }
